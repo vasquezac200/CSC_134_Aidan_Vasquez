@@ -4,6 +4,7 @@
 
 //Importing a library
 #include <iostream>
+#include <cmath>
 
 //use the standard namespace
 using namespace std;
@@ -11,12 +12,11 @@ using namespace std;
 //define the mail() function/method
 int main() 
 {
-    int num1 = 5;
-    int num2 = 10;
-    int product = num1 * num2;
+    int num1 = 20;
+    int srt = sqrt(num1);
 
-    // Use the std(standard) output for the console and prints the product variable
-    std::cout << product << std::endl;
+    // Use the std(standard) output for the console and prints the srt variable
+    std::cout << srt << std::endl;
 
     return 0;
 }
